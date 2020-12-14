@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.math"
+    android:background="@drawable/bg1">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="HITUNG VOLUME DAN LUAS PERMUKAAN TABUNG"
+        android:fontFamily="@font/shojumaru"
+        android:textColor="@color/blue1"
+        android:gravity="center_horizontal"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/jari"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Masukkan jari-jari"
+        android:textColor="@color/blue1"
+        android:textColorHint="@color/blue1"
+        android:backgroundTint="@color/blue3"
+        android:padding="12dp"/>
+    <EditText
+        android:id="@+id/tinggi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Masukkan jari-jari"
+        android:textColor="@color/blue1"
+        android:textColorHint="@color/blue1"
+        android:backgroundTint="@color/blue3"
+        android:padding="12dp"/>
+
+
+    <Button
+        android:id="@+id/volume"
+        android:text="volume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/shojumaru"
+        android:textColor="@color/blue1"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/bg2"/>
+    <Button
+        android:id="@+id/luas"
+        android:text="luas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/shojumaru"
+        android:textColor="@color/blue1"
+        android:background="@drawable/bg2"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="235dp"/>
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="630dp">
+    <TextView
+        android:id="@+id/hasil_V"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="π × r² × t"
+        android:fontFamily="@font/shojumaru"
+        android:textColor="@color/blue1"
+        android:gravity="center_horizontal"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/hasil_L"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 2 × π × r × (r + t)"
+        android:fontFamily="@font/shojumaru"
+        android:textColor="@color/blue1"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:layout_marginLeft="150dp"/>
+    </RelativeLayout>
+
+
+
+</FrameLayout>
